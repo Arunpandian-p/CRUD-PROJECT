@@ -13,7 +13,7 @@ const EditUser = () => {
 
   useEffect(() => {
     getUserById();
-  });
+  },[]);
 
   const updateUser = async (e) => {
     e.preventDefault();
